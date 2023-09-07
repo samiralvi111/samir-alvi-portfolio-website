@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800&family=Work+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+  <style>
+    .font-raleway {
+      font-family: 'Inter', sans-serif;
+      font-family: 'Lato', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Raleway', sans-serif;
+      font-family: 'Work Sans', sans-serif;
+    }
+  </style>
 </head>
-<body>
-  <header>
 
+<body>
+  <header class="max-w-screen-2xl m-auto px-8 md:px-16 lg:px-24 py-3 bg-[#333647]">
+    <div class="flex items-center justify-between">
+      <div>
+        <h1 class="text-white text-[20px] font-bold font-raleway">Portfolio.</h1>
+      </div>
+      <div>
+        <div class="tabs">
+          <a class="tab text-white text-[15px] font-normal font-raleway">Home</a>
+          <a class="tab text-white text-[15px] font-normal font-raleway">Skills</a>
+          <a class="tab text-white text-[15px] font-normal font-raleway">Projects</a>
+          <a class="tab text-white text-[15px] font-normal font-raleway">Contact</a>
+        </div>
+      </div>
+    </div>
   </header>
   <main>
-
+    <!-- nav section start here//////////////////////////////////////////////////////// -->
+    <section class="max-w-screen-2xl m-auto px-8 md:px-16 lg:px-24 py-3 bg-[#333647]">
+      <div class="flex items-center justify-evenly">
+        <div>
+          <p class="text-white">HI THERE !</p>
+          <h1 class="text-white">i'm a <span class="text-[#FFAF2A]">full stack web <br> developer</span></h1>
+          <p class="text-white">Fond Of Creating Web Application Designs And Bring <br> Them To Life With Code And Develope Mobile Designs.</p>
+          <button class="btn btn-outline btn-warning">Warning</button>
+        </div>
+        <div>
+          <img class="w-96" src="./images/profile.png" alt="">
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
-    
+
   </footer>
 </body>
+
 </html>
